@@ -24,7 +24,7 @@ body {
     border-radius: 8px;
     /* box-shadow: 13px 13px 20px #cbced1, 
         -13px -13px 20px #ffffff;*/
-    box-shadow: 7px 10px 12px 0px #ebeef1;
+    box-shadow: 3px 6px 1px 0px #575758;
     background: linear-gradient(45deg,rgb(239, 180, 79),rgb(255, 237, 101)); 
 }
 
@@ -111,4 +111,22 @@ body {
 #ce:hover {
     box-shadow: inset 5px 5px 8px #933b19,
         inset -5px -5px 8px #893716;
+}
+
+
+.caltips{
+    align-content:center;
+    padding: 18px;
+    background: #fad585;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 0.9rem;
+    /* font-size: larger; */
+}
+
+.headcalc{
+    text-align: center;
+}
+#p1{
+    font-size: medium;
 }
