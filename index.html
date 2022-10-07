@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="style.css">
+</head>
+
+<body>
+    <section class="heads">
+        <h1>Scientific Calculator</h1>
+    </section>
+    <section class="calc">
+
+        <div class="container">
+            <div class="display">
+                <input id="screen" type="text" placeholder="0">
+            </div>
+    
+            <div class="btns">
+                <div class="row">
+                    <button onclick="pow2()">x<sup>2</sup></button>
+                    <button onclick="pow3()">x<sup>3</sup></button>
+                    <button class="btn">(</button>
+                    <button class="btn">)</button>
+                    <button id="ce" onclick="backspc()">CE</button>
+                    <button onclick="p_m()">+/-</button>
+                    <button onclick="perc()">%</button>
+                    <button class="btn">÷</button>
+                </div>
+    
+                <div class="row">
+                    <button onclick="sqrt()">√</button>
+                    <button onclick="cbrt()">&#8731;</button>
+                    <button onclick="reci()">1/x</button>
+                    <button onclick="fact()">x!</button>
+                    <button class="btn">7</button>
+                    <button class="btn">8</button>
+                    <button class="btn">9</button>
+                    <button class="btn">×</button>
+                </div>
+    
+                <div class="row">
+                    <button onclick="epow()">e<sup>x</sup></button>
+                    <button onclick="tenpow()">10<sup>x</sup></button>
+                    <button onclick="twopow()">2<sup>x</sup></button>
+                    <button onclick="pi()">π</button>
+                    <button class="btn">4</button>
+                    <button class="btn">5</button>
+                    <button class="btn">6</button>
+                    <button class="btn">-</button>
+                    
+                </div>
+    
+                <div class="row">
+                    <button onclick="sin()">sin</button>
+                    <button onclick="cos()">cos</button>
+                    <button onclick="tan()">tan</button>
+                    <button onclick="e()">e</button>
+                    <button class="btn">1</button>
+                    <button class="btn">2</button>
+                    <button class="btn">3</button>
+                    <button class="btn">+</button>
+                </div>
+    
+                <div class="row">
+                    <button onclick="comlog()">log<sub>10</sub></button>
+                    <button onclick="natlog()">ln</button>
+                    <button onclick="jceil()">Ceil</button>
+                    <button onclick="jfloor()">Floor</button>
+                    <button id="ac" onclick="screen.value=''">AC</button>
+                    <button class="btn">0</button>
+                    <button class="btn">.</button>
+                    <button id="eval" onclick="screen.value=eval(screen.value)">=</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
