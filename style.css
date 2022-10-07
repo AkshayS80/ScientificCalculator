@@ -56,7 +56,7 @@ body {
     margin: 5px;
     border-radius: 4px;
     transition: .1s;
-    box-shadow: 2px 5px 7px 0px #ebeef1;
+    box-shadow: 2px 5px 1px 0px #1a1a1b;
     /* box-shadow: 5px 5px 8px #00000020,
         -5px -5px 8px #ffff; */
 }
@@ -85,7 +85,7 @@ body {
 #eval {
     background: #353cfe;
     color: #fff;
-    box-shadow: 3px 7px 10px 0px #ebeef1;
+    /* box-shadow: 3px 7px 10px 0px #ebeef1; */
 }
 
 #eval:hover {
