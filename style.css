@@ -57,9 +57,12 @@ body {
     margin: 5px;
     border-radius: 4px;
     transition: .1s;
-    box-shadow: 2px 5px 7px 0px #ebeef1;
+    box-shadow: 2px 5px 1px 0px #242425;
     /* box-shadow: 5px 5px 8px #00000020,
         -5px -5px 8px #ffff; */
+}
+.row #eval{
+    box-shadow: 2px 5px 1px 0px #242425;
 }
 
 .row button:hover {
