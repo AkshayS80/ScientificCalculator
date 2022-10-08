@@ -23,16 +23,17 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 3px 6px 1px 0px #575758;
-    background: linear-gradient(45deg,rgb(239, 180, 79),rgb(255, 237, 101)); 
+    background: linear-gradient(45deg,#E5A663,#FAEE9E); 
 }
 
 .heads{
     align-content:center;
     padding: 1px;
-    background: #fad585;
+    background: #FAEE9E;
     text-align: center;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 1.8rem;
+    border-bottom: .19rem solid #E5A663;
 }
 
 .content {
@@ -114,7 +115,7 @@ body {
     padding: 18px;
     margin: 10px 50px 50px 50px;
     border-radius: 20px;
-    background: #fad585;
+    background: #FAEE9E;
     text-align: justify;
     font-weight: 400;
     font-size: 0.9rem;
@@ -122,7 +123,21 @@ body {
 
 .headcalc{
     text-align: center;
+    font-size: x-large;
 }
-#p1{
-    font-size: medium;
+
+.p1{
+    font-size: larger;
+}
+
+.footer{
+    text-align: center;
+    justify-content: center;
+    color:black;
+    font-size: 0.7rem;
+    font-weight: 400;
+    padding: 1.7rem;
+    border-top: .19rem solid #E5A663;
+    text-transform: capitalize;
+    background: #FAEE9E;
 }
