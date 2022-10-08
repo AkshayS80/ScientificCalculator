@@ -7,8 +7,7 @@
     <title>Scientific Calculator</title>
     <link rel="stylesheet" type="text/css"
         href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css"
-        href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
@@ -86,49 +85,109 @@
         <div class="headcalc">
             <h1>Calculator Tips</h1>
         </div>
+       <div class="tips_para">
         <p>
             <ol>
                 <li id="p1">It follows <b>P.E.D.M.A.S</b> Calculation Method</li>
                 <ul>
-                    <li>P - Parenthesis</li>
-                    <li>E - Exponent</li>
-                    <li>D - Division</li>
-                    <li>M - Multiplication</li>
-                    <li>A - Addition</li>
-                    <li>S - Subtraction</li>
+                    <li><b>P</b> - Parenthesis</li>
+                    <li><b>E</b> - Exponent</li>
+                    <li><b>D</b> - Division</li>
+                    <li><b>M</b> - Multiplication</li>
+                    <li><b>A</b> - Addition</li>
+                    <li><b>S</b> - Subtraction</li>
                 </ul>
                 <br>
-                <li>Write the operand or value before using any function or operator</li>
+                <li>Write the operand or value before using any function or operator.</li>
+                <br>
                 <li>For the <b>sin</b>, <b>cos</b> and <b>tan</b> functions, the angle values taken are measured in <em>radians</em>, <b>NOT</b> in <em>degrees</em>.</li>
-                Explanation:
-                <ul>
+                <br><b>Explanation:</b>
+                <ul style="list-style: none;">
                     <li>The functions require values in radians. So, if we write 45 on the screen it will not be taken as 45° but as 45 rad.</li>
-                    <li>Relation between radians and degrees<br>π rad = 180°</li>
-                    <li>Example : To obtain the value of tan(45°)
+                    <br>
+                    <li><b>Relation between radians and degrees :</b><br>
+                        <ul style="list-style: none;">
+                        <li>π rad = 180°</li>
+                    </ul></li>
+                    <br>
+                    <li><b>Example :</b> To obtain the value of tan(45°)
                         <br>
-                        <ol>
-                            <li>Convert from degree to radian using the formula below
-                                <br>
-                                radian measure = (π / 180°) * degree measure
+                        <ul style="list-style:none;">
+                            <li>i) Convert from degree to radians
                                 <br><br>
-                                radian measure (45°) = (π / 180°) * 45°
+                                <b>Formula for conversion :</b>
                                 <br>
-                                radian measure (45°) = 0.7853981633975
+                                <ul style="list-style:none;">
+                                    <li>
+                                        radian measure = (π / 180°) * degree measure
+                                    </li>
+                                </ul>
+                                <br><br>
+                                <b>Calculation :</b>
+                                <br>
+                                <ul style="list-style:none;">
+                                    <li>
+                                        radian measure (45°) = (π / 180°) * 45°
+                                        <br>
+                                        radian measure (45°) = 0.7853981633975
+                                    </li>
+                                </ul>
+                                <br><br>
                             </li>
                             <li>
-                                Press <b>tan</b> after receiving the screen value of the radian measure
-                                <br>
-                                tan(0.7853981633975) = 1.0000000000001033 
+                                ii) Press <b>tan</b> after receiving the screen value of the radian measure
+                                <br><br>
+                                <b>Calculation :</b><br>
+                                <ul style="list-style: none;">
+                                    <li>
+                                    tan(0.7853981633975) = 1.0000000000001033
+                                    </li>
+                                </ul>
                             </li>
-                        </ol>
+                        </ul>
                     </li>
                 </ul>
+                <br>
                 That's how you use the trignometric functions in this Calculator.
+                <br><br>
+                <li>Special functions : <b>ceil()</b> and <b>floor()</b></li>
+                <ul style="list-style:none;">
+                    <br>
+                    <li>
+                        4.1. <b>ceil(x)</b> - This function returns the smallest integer that is greater than or equal to <b>x</b>. 
+                    <br>
+                    <ul style="list-style:none;">
+                        <br>
+                        <li><b>Example :</b></li>
+                        <ul style="list-style: none;">
+                            <li>ceil(3.2) = 4</li>
+                            <li>ceil(3) = 3</li>
+                            <li>ceil(-3.2) = -3</li>
+
+                            <li>ceil(-3) = -3</li>
+                        </ul>
+                    </ul> 
+                    </li>
+                    <br>
+                    <li>
+                        4.2. <b>floor(x)</b> - This function returns the largest integer that is lesser than or equal to <b>x</b>. 
+                    <br>
+                    <ul style="list-style:none;">
+                        <br>
+                        <li><b>Example :</b></li>
+                        <ul style="list-style: none;">
+                            <li>floor(3.2) = 3</li>
+                            <li>floor(3) = 3</li>
+                            <li>floor(-3.2) = -4</li>
+                            <li>floor(-3) = -3</li>
+                        </ul>
+                    </ul> 
+                    </li>
+                </ul>
+
             </ol> 
-            
-            
-            
         </p>
+       </div>
     </section>
 
 </body>
